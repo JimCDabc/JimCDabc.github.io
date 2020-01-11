@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <title>Latitude vs. Windspeed</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand hover" href="./index.html">L A T I T U D E</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <div class="nav-item dropdown">
+                        <a class="active nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./maxtemp.html">Latitude vs. Max Temp</a>
+                            <a class="dropdown-item" href="./humidity.html">Latitude vs. Humidity</a>
+                            <a class="dropdown-item" href="./cloudy.html">Latitude vs. Cloudiness</a>
+                            <a class="dropdown-item active" href="./windspeed.html">Latitude vs. Wind Speed</a>
+                        </div>
+                    </div>
+                
+                    <a class="nav-item nav-link" href="./comparisons.html">Comparisons</a>
+                    <a class="nav-item nav-link" href="./data.html">Data</a>
+
+                </div>
+            </div>
+        </nav>
+    
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <section class="article box" > 
+                    <h3 class="header">Wind Speed</h3>
+                    <hr/>
+                    <a href=".\Resources\assets\images\Fig4.png">
+                        <img class="article_img img-fluid img-responsive" src=".\Resources\assets\images\Fig4.png" alt="Responsive Image">
+                    </a>
+                    <p class="article_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
+                    </section>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <section class="viz box">
+                        <h3 class="header">Visualizations</h3>
+                        <hr/>
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a  href=".\maxtemp.html" title="City Latitude vs. Max Temp">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
+                                    </a>
+                                </div>
+                            </div>               
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a href=".\humidity.html" title="City Latitude vs. Humidity">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a href=".\cloudy.html" title="City Latitude vs. Cloudiness"> 
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig3.png" alt="City Latitude vs. Cloudiness">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card d-inline-block m-1 viz_card active ">
+                                <div class="card-body">
+                                    <a href=".\windspeed.html" title="City Latitude vs. Windspeed">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
+                                    </a>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
